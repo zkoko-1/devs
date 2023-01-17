@@ -1,0 +1,43 @@
+body {
+    background-color: hsl(226, 43%, 10%);
+}
+  
+.tag_line{
+  color: aliceblue;
+  font-size: 180px;
+  text-align: center;
+  vertical-align: center;
+}
+
+.tracking-in-expand{
+    -webkit-animation:tracking-in-expand .7s cubic-bezier(.215,.61,.355,1.000) both;
+    animation:tracking-in-expand .7s cubic-bezier(.215,.61,.355,1.000) both
+}
+
+
+
+
+@-webkit-keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
